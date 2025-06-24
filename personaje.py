@@ -15,7 +15,7 @@ class Personaje:
         return self.nivel, self.experiencia
 
     @estado.setter
-    def estado(self, experiencia_extra)
+    def estado(self, experiencia_extra):
         # Setter: ajusta experiencia y nivel en base a experiencia ganada o perdida
         nueva_exp = self.experiencia + experiencia_extra
 
