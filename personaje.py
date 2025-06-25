@@ -6,7 +6,6 @@ class Personaje:
         self.nombre = nombre
         self.nivel = 1
         self.experiencia = 0
-        self.estado = (self.nivel, self.experiencia)
     
     @property
     def estado(self):
